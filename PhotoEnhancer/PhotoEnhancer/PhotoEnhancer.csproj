@@ -49,6 +49,7 @@
     <Compile Include="Data\Convertors.cs" />
     <Compile Include="Data\Photo.cs" />
     <Compile Include="Data\Pixel.cs" />
+    <Compile Include="Filters\RangeDecreasingFilter.cs" />
     <Compile Include="Filters\GrayScaleFilter.cs" />
     <Compile Include="Filters\IFilter.cs" />
     <Compile Include="Filters\LighteningFilter.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="PhotoEnhancesClassDiagram.cd" />
     <None Include="Properties\Settings.settings">
@@ -87,6 +89,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cat.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

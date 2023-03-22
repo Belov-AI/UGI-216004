@@ -21,6 +21,7 @@ namespace PhotoEnhancer
 
             mainForm.AddFilter(new LighteningFilter());
             mainForm.AddFilter(new GrayScaleFilter());
+            mainForm.AddFilter(new RangeDecreasingFilter());
 
             Application.Run(mainForm);
         }
