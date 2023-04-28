@@ -54,6 +54,8 @@
     <Compile Include="Filters\IFilter.cs" />
     <Compile Include="Filters\IParameters.cs" />
     <Compile Include="Filters\Transform\ITransformer.cs" />
+    <Compile Include="Filters\Transform\PerspectiveParameters.cs" />
+    <Compile Include="Filters\Transform\PerspectiveTransformer.cs" />
     <Compile Include="Filters\Transform\RotateTransformer.cs" />
     <Compile Include="Filters\Transform\RotationParameters.cs" />
     <Compile Include="Filters\LighteningParameters.cs" />

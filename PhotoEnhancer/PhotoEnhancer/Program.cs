@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Security.Cryptography;
+using PhotoEnhancer.Filters.Transform;
 
 namespace PhotoEnhancer
 {
@@ -82,6 +83,10 @@ namespace PhotoEnhancer
             mainForm.AddFilter(new TransformFilter<RotationParameters>(
                 "Поворот на произвольный угол",
                 new RotateTransformer()
+                ));
+            mainForm.AddFilter(new TransformFilter<PerspectiveParameters>(
+                "Перспектива",
+                new PerspectiveTransformer()
                 ));
 
             Application.Run(mainForm);
