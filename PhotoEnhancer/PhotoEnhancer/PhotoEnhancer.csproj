@@ -49,6 +49,7 @@
     <Compile Include="Data\Convertors.cs" />
     <Compile Include="Data\Photo.cs" />
     <Compile Include="Data\Pixel.cs" />
+    <Compile Include="Filters\RangeDecreasngParameters.cs" />
     <Compile Include="Filters\EmptyParameters.cs" />
     <Compile Include="Filters\IFilter.cs" />
     <Compile Include="Filters\IParameters.cs" />
