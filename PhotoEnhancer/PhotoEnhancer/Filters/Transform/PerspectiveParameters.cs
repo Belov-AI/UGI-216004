@@ -15,7 +15,7 @@ namespace PhotoEnhancer.Filters.Transform
             {
                 new ParameterInfo()
                 {
-                    Name = "N - доля сужения",
+                    Name = "N-параметр (ширина суженой верхней части)",
                     MinValue = 0,
                     MaxValue = 1.0,
                     DefaultValue = 1.0,
