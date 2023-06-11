@@ -49,6 +49,7 @@
     <Compile Include="Data\Convertors.cs" />
     <Compile Include="Data\Photo.cs" />
     <Compile Include="Data\Pixel.cs" />
+    <Compile Include="Filters\RangeDecreasngParameters.cs" />
     <Compile Include="Filters\EmptyParameters.cs" />
     <Compile Include="Filters\IFilter.cs" />
     <Compile Include="Filters\Parameters\IParameters.cs" />
@@ -56,6 +57,8 @@
     <Compile Include="Filters\Parameters\SimpleParametersHandler.cs" />
     <Compile Include="Filters\Parameters\StaticParametersHandler.cs" />
     <Compile Include="Filters\Transform\ITransformer.cs" />
+    <Compile Include="Filters\Transform\PerspectiveParameters.cs" />
+    <Compile Include="Filters\Transform\PerspectiveTransformer.cs" />
     <Compile Include="Filters\Transform\RotateTransformer.cs" />
     <Compile Include="Filters\Transform\RotationParameters.cs" />
     <Compile Include="Filters\LighteningParameters.cs" />
