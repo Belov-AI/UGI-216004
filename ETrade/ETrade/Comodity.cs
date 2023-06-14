@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ETrade
 {
-    public class Comodity
+    public class Comodity : IEShopComodity
     {
         public string Category { get;}
         public string Name { get;}
@@ -23,8 +23,10 @@ namespace ETrade
         {
             //переопределить метод так, чтобы возвращалась строка в формате
             // категория, название, цена, количество (в этом порядке), разделенные табуляцией
-            
-            throw new NotImplementedException();
+
+            //@@@ - свойство "количество" не упоминается ни в тестах, ни в реализации этого класса.
+            //Воспринимаю как опечатку в задании
+            return $"{Category}\t{Name}\t{Price}";
         }
 
     }
