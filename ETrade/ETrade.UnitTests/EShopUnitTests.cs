@@ -1,4 +1,5 @@
 ﻿using ETrade;
+using System.Linq;
 
 namespace ETradeUnitTests
 {
@@ -50,7 +51,7 @@ namespace ETradeUnitTests
             var shop = GetEShop();
             Assert.That(shop.CountOrders(), Is.EqualTo(5));
             Assert.That(shop.Count("Телефон", "Apple iPhone 12"), Is.EqualTo(30));
-
+          
             shop.RemoveOrder(2);
             Assert.That(shop.CountOrders(), Is.EqualTo(4));
             Assert.That(shop.Count("Телефон", "Apple iPhone 12"), Is.EqualTo(10));
